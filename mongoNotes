@@ -1,0 +1,21 @@
+Script started on Fri Mar 11 13:14:34 2016
+[?1034hbash-3.2$ mongo
+MongoDB shell version: 3.0.7
+connecting to: test
+> use lectutre[3G[Juse lectutr[14G[3G[Juse lectut[13G[3G[Juse lectu[12G[3G[Juse lect[11G[3G[Juse lec[10Gtures[3G[Juse lecture[14G8[3G[Juse lecture8[15G
+switched to db lecture8
+> db.movies[3G[Jdb.movies[12G
+lecture8.movies
+> [3G[Jdb.movies[12G.find()[3G[Jdb.movies.find()[19G
+{ "_id" : "2958034c-3e08-d858-16e0-4fc52af16f80", "title" : "The Last Samurai", "rating" : 4.5 }
+{ "_id" : "f4d0300c-3082-7114-1bf0-c03c0977d005", "title" : "X-Men", "rating" : 3 }
+{ "_id" : "c2c067ba-a380-5d89-d3d9-76f96f4614cf", "title" : "The Godfather", "rating" : 5 }
+{ "_id" : "a98ffb2b-dd1f-c26b-08cf-986fdc1ef2d3", "title" : "George Of The Jungle", "rating" : 1.6 }
+{ "_id" : "453850de-866f-33f1-5c8a-8d96f3e9ab11", "title" : "Batman: The Dark Knight Rises", "rating" : 5 }
+> quit[3G[Jquit[7G
+function quit() { [native code] }
+> quit()[3G[Jquit()[9G
+bash-3.2$ exit
+exit
+
+Script done on Fri Mar 11 13:15:16 2016
