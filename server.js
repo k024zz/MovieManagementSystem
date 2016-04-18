@@ -32,12 +32,6 @@ app.post("/rating", function(request, response) {
     });
 });
 
-app.post("/delete", function(request, response) {
-    movieData.deleteMovie(request.body.id).then(function(movie) {
-        response.json("deleted")
-    });
-});
-
 // If you'll notice, there's not a single database call in the server file!
 
 // Get the best movies
