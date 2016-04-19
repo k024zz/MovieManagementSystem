@@ -20,7 +20,7 @@
 		var rating = parseFloat($("#movie-rating").val());
 
 		// input check
-		if(title == "" || rating == "") {
+		if(title === "" || rating === "") {
 			alert("title and rating cannot be empty");
 			return;
 		}
