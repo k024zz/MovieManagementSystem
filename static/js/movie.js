@@ -17,7 +17,7 @@
 
 	$("#movie-form").submit(function(){
 		var title = $("#movie-title").val();
-		var rating = $("#movie-rating").val();
+		var rating = parseFloat($("#movie-rating").val());
 
 		// input check
 		if(title == "" || rating == "") {
@@ -82,7 +82,7 @@
 				tr.data("id", responseMessage[i]._id);
 				tr.append($("<th></th>").text((i+1).toString()));
 				tr.append($("<th></th>").text(responseMessage[i].title));
-				tr.append($("<th></th>").text(responseMessage[i].rating));
+				tr.append($("<th></th>").text(responseMessage[i].rating.toFixed(1)));
 				var th = $("<th></th>");
 				th.append($("<button></button>").text("like").attr({"class": "like_button btn btn-success"}));
 				th.append($("<button></button>").text("dislike").attr({"class": "dislike_button btn btn-info"}));
